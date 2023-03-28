@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Organo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar bg-info-subtle">
+            <div class="container-fluid">
+                <a  class="navbar-brand" href="#">3° Ano</a>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <ul class="mensagemErro list-group"></ul>
+    <section class="container">
+        <form class="formAdd">
+            <div class="w-75 m-auto bg-body-secondary p-5 rounded-3">
+                <h3>Preencha os dados para criar um aluno</h3>
+                <!------------------Input Nome---------------------->
+                <div class="mb-3">
+                 <label for="nome" class="form-label">Nome: </label>
+                 <input type="text" id="nome" name="nome" class="form-control">
+                </div>
+                <!-------------------------------------------------------------->
+                <!-----------------------Input Cargo---------------------------->
+                <div class="mb-3">
+                    <label for="cargo" class="form-label">Cargo: </label>
+                    <input type="text" id="cargo" name="cargo" class="form-control">
+                </div>
+                <!-------------------------------------------------------------->
+                <!-------------------------Input Cargo-------------------------->
+                <div class="mb-3">
+                    <label for="foto" class="form-label">Foto: </label>
+                    <input type="file" id="imagem" name="imagem" class="form-control">
+                </div>
+                <!------------------------------------------------------------------>
+                <!-------------------------Select----------------------------------->
+                <div class="mb-3">
+                    <label for="time" class="form-label">Time: </label>
+                    <select name="time" id="time" class="form-select">
+                     <option selected disabled>Selecione o seu Time</option>
+                     <option value="fullStack">Full-Stack</option>
+                     <option value="frontEnd">Front-End</option>
+                     <option value="backEnd">Back-End</option>
+                     <option value="dataScience">Data-Science</option>
+                     <option value="mobile">Mobile</option>
+                     <option value="uxEDesign">Ux e Design</option>
+                    </select>
+                </div>
+                <!------------------------------------------------------------------>
+                <button type="submit" id="botaoAdicionar" class="btn btn-primary btn-lg w-25">Enviar</button>
+            </div>
+        </form>
+    </section>
+     <section class="container p-5">
+        <h2 class="text-center text-primary">Minha Equipe</h2>
+     </section>
+     <section class="bg-success-subtle w-100">
+        <div class="container">
+            <h3 class="text-center text-success mb-5">Full-Stack</h3>
+            <div class="row">
+              <figure class="col card ms-3">
+                <img class="foto rounded-circle" src="assets/img/andreia.jpg">
+                <figcaption class="text-center">
+                <h4>Andreia</h4>
+                <p>Full-Stack Developer</p>
+                </figcaption>
+              </figure>
+              <!---------------------------------------------------------->
+              <figure class="col card ms-3">
+                <img class="foto rounded-circle" src="assets/img/marcela.jpg">
+                <figcaption class="text-center">
+                <h4>Marcela</h4>
+                <p>Full-Stack Developer</p>
+                </figcaption>
+              </figure>
+              <!------------------------------------------------------------->
+              <figure class="col card ms-3">
+                <img class="foto rounded-circle" src="assets/img/roberta.jpg">
+                <figcaption class="text-center">
+                <h4>Roberta</h4>
+                <p>Full-Stack Developer</p>
+                </figcaption>
+              </figure>
+            </div>
+        </div>
+     </section>
+     <section class="bg-primary-subtle w-100">
+        <div class="container">
+            <h3 class="text-center text-primary mb-5">Front-End</h3>
+            <div class="row">
+              <figure class="col card card1 ms-3">
+                <img class="foto rounded-circle" src="assets/img/andreia.jpg">
+                <figcaption class="text-center">
+                <h4>Andreia</h4>
+                <p>Full-Stack Developer</p>
+                </figcaption>
+              </figure>
+              <!---------------------------------------------------------->
+              <figure class="col card card1 ms-3">
+                <img class="foto rounded-circle" src="assets/img/marcela.jpg">
+                <figcaption class="text-center">
+                <h4>Marcela</h4>
+                <p>Full-Stack Developer</p>
+                </figcaption>
+              </figure>
+              <!------------------------------------------------------------->
+              <figure class="col card card1 ms-3">
+                <img class="foto rounded-circle" src="assets/img/roberta.jpg">
+                <figcaption class="text-center">
+                <h4>Roberta</h4>
+                <p>Full-Stack Developer</p>
+                </figcaption>
+              </figure>
+            </div>
+        </div>
+     </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
