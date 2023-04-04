@@ -23,3 +23,22 @@ background-image: linear-gradient(to top, white 40%, #5cb85c 10%);
 .card1{
     background-image: linear-gradient(to top, white 40%, #0275d8 10%);
 }
+.card2{
+    background-image: linear-gradient(to top, white 40%, #f7f45e 10%);
+}
+.card3{
+    background-image: linear-gradient(to top, white 40%, #f75e5e 10%);
+}
+.card4{
+    background-image: linear-gradient(to top, white 40%, #838382 10%);
+}
+.card5{
+    background-image: linear-gradient(to top, white 40%, #6becfd 10%);
+}
+
+footer{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
